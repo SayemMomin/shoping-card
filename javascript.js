@@ -50,6 +50,8 @@ updateByMinus("phn-minus","phn-input", "phn-price");
 updateByPlus("case-plus", "case-input", "case-price");
 updateByMinus("case-minus", "case-input", "case-price");
 
+var input = parseFloat(document.getElementById("phn-input"));
+console.log(input);
 
 
 
